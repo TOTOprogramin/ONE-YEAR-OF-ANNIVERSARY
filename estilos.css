@@ -1,0 +1,390 @@
+
+
+
+/*CUBO1*/
+
+
+
+*{
+
+  margin: 0;
+  padding: 0;
+}
+ 
+body{
+  background-image: url(https://magiagifs.com.br/wp-content/uploads/2020/08/gifs-amor1.gif);
+  background-attachment: fixed;
+}
+
+header{
+  height: 30px;
+  margin: 0;
+  padding: 50px;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+
+}
+
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+}
+
+
+.conteiner{
+
+height: 100vh;
+display: flex;
+justify-content:center;
+align-items: center;
+position: relative;
+perspective: 1000px;
+
+padding: 100px;
+
+}
+
+.lado{
+    height: 300px;
+    width: 300px;
+    animation: girar 4s linear infinite;
+    position: absolute;
+    opacity: 0.9;
+    cursor:grab;
+}
+
+@keyframes girar{
+
+    from{
+      transform: rotateY(360deg) translateZ(150px);
+      z-index: 10;
+    }
+    
+    50%{
+      z-index: -10;
+    }
+to{
+
+transform: rotateY(0) translateZ(150px);
+z-index: 10;
+
+}
+}
+
+#lado_d{
+  background-image: url(img/atardecer1.png);
+  background-size: cover;
+  background-position: center;
+}
+#lado_d:hover{
+  box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+-webkit-box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+-moz-box-shadow: 0px 0px 43px 0px rgba(255, 0, 0, 0.75);
+
+}
+
+#lado_c{
+  background-image: url(img/atardecer1.png);
+  background-size: cover;
+  background-position: center;
+  animation-delay: -1s;
+}
+
+#lado_c:hover{
+  box-shadow: 0px 0px 43px 0px rgba(14, 255, 239, 0.75);
+-webkit-box-shadow: 0px 0px 43px 0px rgba(10, 230, 255, 0.75);
+-moz-box-shadow: 0px 0px 43px 0px hsla(183, 83%, 52%, 0.75);
+}
+
+#lado_b{
+  background-image: url(img/atardecer1.png);
+  background-size: cover;
+  background-position: center;
+  animation-delay: -2s;
+}
+
+#lado_b:hover{
+  box-shadow: 0px 0px 43px 0px rgba(22, 222, 75, 0.75);
+-webkit-box-shadow: 0px 0px 43px 0px rgba(22, 222, 79, 0.75);
+-moz-box-shadow: 0px 0px 43px 0px rgba(0, 255, 42, 0.75);
+}
+
+#lado_a{
+  background-image: url(img/atardecer1.png);
+  background-size: cover;
+  background-position: center;
+  animation-delay: -3s;
+}
+
+#lado_a:hover{
+  box-shadow: 0px 0px 43px 0px rgba(255, 1, 204, 0.75);
+-webkit-box-shadow: 0px 0px 43px 0px rgba(255, 0, 162, 0.75);
+-moz-box-shadow: 0px 0px 43px 0px rgba(255, 0, 153, 0.75);
+}
+/* top and bottom*/
+
+.lado_2{
+height: 300px;
+width: 300px;
+animation: girar_2 4s linear infinite;
+position: absolute;
+}
+
+@keyframes girar_2{
+    from{
+      transform: rotateY(360deg) rotateX(90deg);
+    }
+
+    to{
+      transform: rotateY(0deg) rotateX(90deg);
+    }
+}
+
+#lado_e{
+  background-color: white;
+  margin-bottom: 300px;
+
+}
+#lado_f{
+  background-color: black;
+  margin-bottom: 300px;
+}
+
+h1{
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+}
+
+
+/*CUBO2*/
+
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+}
+
+
+.conteiner2{
+
+height: 100vh;
+display: flex;
+justify-content:center;
+align-items: center;
+position: relative;
+perspective: 1000px;
+background-color: rgba(0, 0, 0, 0.506);
+padding: 100px;
+
+
+}
+
+.lado{
+    height: 300px;
+    width: 300px;
+    animation: girar 4s linear infinite;
+    position: absolute;
+    opacity: 0.9;
+    cursor:grab;
+}
+
+@keyframes girar{
+
+    from{
+      transform: rotateY(360deg) translateZ(150px);
+      z-index: 10;
+    }
+    
+    50%{
+      z-index: -10;
+    }
+to{
+
+transform: rotateY(0) translateZ(150px);
+z-index: 10;
+
+}
+}
+
+#lado_4{
+  background-image: url(img/sedapal1.png);
+  background-size: cover;
+  background-position: center;
+}
+#lado_4:hover{
+  box-shadow: 0px 0px 43px 0px rgba(24, 254, 24, 0.75);
+-webkit-box-shadow: 0px 0px 43px 0px rgba(28, 210, 31, 0.75);
+-moz-box-shadow: 0px 0px 43px 0px rgba(19, 225, 19, 0.75);
+
+}
+
+#lado_3{
+  background-image: url(img/corazon1.png);
+  background-size: cover;
+  background-position: center;
+  animation-delay: -1s;
+}
+
+#lado_3:hover{
+  box-shadow: 0px 0px 43px 0px rgb(254, 220, 0);
+-webkit-box-shadow: 0px 0px 43px 0px rgba(255, 247, 0, 0.75);
+-moz-box-shadow: 0px 0px 43px 0px rgb(234, 255, 8);
+}
+
+#lado_2{
+  background-image: url(img/mala.png);
+  background-size: cover;
+  background-position: center;
+  animation-delay: -2s;
+}
+
+#lado_2:hover{
+  box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+-webkit-box-shadow: 0px 0px 43px 0px rgba(222,22,22,0.75);
+-moz-box-shadow: 0px 0px 43px 0px rgb(30, 216, 240);
+}
+
+#lado_1{
+  background-image: url(img/fotoespejo.png);
+  background-size: cover;
+  background-position: center;
+  animation-delay: -3s;
+}
+
+#lado_1:hover{
+  box-shadow: 0px 0px 43px 0px rgba(28, 232, 255, 0.75);
+-webkit-box-shadow: 0px 0px 43px 0px rgba(22, 222, 219, 0.75);
+-moz-box-shadow: 0px 0px 43px 0px rgba(22, 215, 222, 0.75);
+}
+/* top and bottom*/
+
+.lado_2{
+height: 300px;
+width: 300px;
+animation: girar_2 4s linear infinite;
+position: absolute;
+}
+
+@keyframes girar_2{
+    from{
+      transform: rotateY(360deg) rotateX(90deg);
+    }
+
+    to{
+      transform: rotateY(0deg) rotateX(90deg);
+    }
+}
+
+#lado_5{
+  background-color: white;
+  margin-bottom: 300px;
+
+}
+#lado_6{
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 300px;
+}
+
+h1{
+  font-size: 40px;
+  color: rgb(27, 47, 203);
+  text-align: center;
+  padding: 20px;
+}
+
+section{
+  text-align: center;
+  padding: 30px;
+}
+
+section h2{
+  color: aliceblue;
+  padding: 20px;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section h4{
+  color: aliceblue;
+  padding: 30px;
+  font-size: 25px;
+}
+
+.imgs {
+  position: relative;
+  border: solid 1px green;
+  height:auto;
+  display:contents;
+  justify-content: center;
+  background-color: red;
+
+}
+
+img{
+  padding: 10px;
+  border-radius: 50px;
+  height: auto;
+}
+
+.parrafo p{
+  text-align: center !important;
+  color: aliceblue;
+  text-align: justify;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: black;
+  opacity: 0.8;
+
+
+}
+
+.h2-{
+  padding: 50px;
+  background-color: #000000;
+  opacity: 0.8;
+}
+
+
+/*footer*/
+
+footer {
+  background-color: #000000;
+  padding: 30px;
+  text-align: center;
+}
+
+.footer-text h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.footer-text p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+
+.te-amo{
+  background-color: rgb(17, 1, 1);
+  border-radius: 50px;
+  color: red;
+  padding: 5px;
+  margin-bottom: 100px;
+}
